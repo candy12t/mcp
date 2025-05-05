@@ -1,4 +1,4 @@
-module xid-mcp-server
+module github.com/candy12t/mcp/xid-mcp-server
 
 go 1.24.0
 
