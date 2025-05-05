@@ -38,6 +38,22 @@ The xid MCP server is a [Model Context Protocol (MCP)](https://modelcontextproto
 }
 ```
 
+### Build from soruce
+
+```bash
+go install github.com/candy12t/mcp/xid-mcp-server@latest
+```
+
+```json
+{
+  "mcpServers": {
+    "xid-mcp-server": {
+      "command": "/path/to/xid-mcp-server"
+    }
+  }
+}
+```
+
 ## Tools
 
 - `generate_xid`: generate new xid
